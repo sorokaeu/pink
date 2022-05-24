@@ -1,0 +1,232 @@
+.page1 {
+  height: 421px;
+}
+
+.text {
+  width: 100%;
+  height: 171px;
+  margin: 0 auto;
+  padding-top: 36px;
+  box-sizing: border-box;
+}
+.text-content {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+@media (min-width: 660px) {
+  .text {
+    height: 330px;
+    padding-top: 81px;
+  }
+  .text-content {
+    font-size: 50px;
+    line-height: 68px;
+  }
+}
+
+.application {
+  height: 184px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 54px 20px;
+}
+
+.application-content {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+@media (min-width: 660px) {
+  .application {
+    height: 228px;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .application-content {
+    font-size: 18px;
+  }
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+}
+.gallery-item-body {
+  background-color: #f2f2f2;
+  margin: 0 20px;
+  width: 280px;
+}
+.gallery-img {
+  margin: 0 auto;
+}
+.gallery-img-item {
+  text-align: center;
+}
+.gallery-name {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  padding-top: 25px;
+  padding-left: 17px;
+  padding-bottom: 14px;
+  padding-right: 3px;
+  margin: 0;
+}
+.gallery-time {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  text-transform: uppercase;
+}
+
+.gallery-content {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  padding-right: 10px;
+  padding-left: 17px;
+  padding-bottom: 25px;
+  padding-top: 0;
+  margin: 0;
+}
+.gallery-item-body-like {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 26px;
+}
+.heart {
+  display: block;
+  padding-left: 17px;
+  padding-right: 18px;
+  padding-top: 0;
+}
+.gallery-item-body-like-content {
+  margin: 0;
+  color: #d22856;
+}
+.gallery-output {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+  padding-top: 49px;
+  padding-bottom: 52px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+}
+.editor {
+  width: 100%;
+  height: 757px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 660px) {
+  .editor {
+    flex-direction: row;
+  }
+}
+.editor-left {
+  width: 100%;
+  margin: 20px 20px 0 20px;
+}
+.editor-img1 {
+  text-align: center;
+}
+
+.editor-bar {
+  display: flex;
+  flex-direction: row;
+}
+@media (min-width: 660px) {
+  .editor-bar {
+    flex-direction: column;
+  }
+}
+.editor-bar-crop {
+  margin-top: 42px;
+  margin-left: 57px;
+  margin-right: 35px;
+  margin-bottom: 39px;
+}
+.editor-bar-fill {
+  margin-top: 43px;
+  margin-right: 35px;
+  margin-bottom: 39px;
+}
+.editor-bar-contrast {
+  margin-top: 48px;
+  margin-right: 69px;
+  margin-bottom: 40px;
+}
+
+.editor-btn {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 280px;
+  height: 55px;
+  background-color: #f2f2f2;
+
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.editor-btn1 {
+  margin-top: 38px;
+  margin-bottom: 12px;
+  color: #d22856;
+  border: 3px solid #d22856;
+}
+.editor-btn2 {
+  margin-bottom: 41px;
+  color: #283645;
+  border: 3px solid #283645;
+  opacity: 0.1;
+}
