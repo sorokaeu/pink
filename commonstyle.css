@@ -201,11 +201,6 @@ body {
     height: 66px;
   }
 }
-@media (min-width: 660px) {
-  .header__menu {
-    padding: 110px 0 0 0;
-  }
-}
 
 .header__link {
   font-family: "Open Sans";
@@ -243,12 +238,13 @@ body {
 .header__link:hover {
   color: #d22856;
 }
-.header__link:active {
+.header__link:active,
+.header__link__active {
   border-bottom: 2px solid #ffffff;
   color: #ffffff;
 }
 
-.header__burger::after:active {
+.header__burger:active::after {
   color: #d22856;
 }
 

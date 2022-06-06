@@ -63,7 +63,7 @@
                       <a href="catalog.html" class="header__link">Фотографии</a>
                     </li>
                     <li>
-                      <a href="form.html" class="header__link">Конкурс</a>
+                      <a href="form.html" class="header__link header__link__active">Конкурс</a>
                     </li>
                     <li>
                       <a href="#" class="header__link">HTML Academy</a>
@@ -91,32 +91,141 @@
       </p>
     </div>
     <form action="#" method="post">
-      <div class="personal-btns">
-        <label for="second-name">Фамилия</label>
-        <input
-          type="text"
-          id="second-name"
-          name="second-name"
-          value="Укажите фамилию*"
-          required
-        />
-        <label for="name">Имя</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value="Укажите имя*"
-          required
-        />
-        <label for="middle-name">Отчество</label>
-        <input
-          type="text"
-          id="middle-name"
-          name="middle-name"
-          value="Ну и отчество тоже"
-        />
+      <div class="section1-4">
+      <section class="section1">
+        <div class="personal-btns">
+          <div class="personal-btn">
+            <label for="second-name" class="text social-text">Фамилия</label>
+          <input
+            type="text"
+            id="second-name"
+            name="second-name"
+            placeholder="Укажите фамилию*"
+            required
+          />
+        </div>
+        <div class="personal-btn">
+          <label for="name" class="text social-text">Имя</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Укажите имя*"
+            required
+          />
+        </div>
+        <div class="personal-btn">
+          <label for="middle-name" class="text social-text">Отчество</label>
+          <input
+            type="text"
+            id="middle-name"
+            name="middle-name"
+            placeholder="Ну и отчество тоже"
+          />
+          </div>
+        </div>
+      </section>
+      <div class="container-radio">
+        <p class="container-radio-tittle">
+          С каким приложением путешествовали
+        </p>
+        <div class="radio-area">
+          <label class="custom-radio">
+            <input type="radio" name="radio-btn" checked value="ios">
+            <span>Pink для iOS</span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="radio-btn value="android">
+            <span>Pink на Android</span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="radio-btn" value="windows">
+           <span>Windows Phone</span> 
+          </label>
+        </div>
       </div>
+    </div>
+     <div class="section2-3">
+       <section class="section2">
+        <p class="checkbox-area-tittle">
+          Ваши безбашенные достижения в путешествии
+        </p>
+        <div class="checkbox-area">
+          <label class="container-checkbox-name">Сделал селфи с акулой
+            <input type="checkbox" name="checkbox1" checked="checked" class="check-highload" />
+            <span class="highload2"></span>
+          </label>
+          <label class="container-checkbox-name">Обгорел на пляже
+            <input type="checkbox" name="checkbox1" checked="checked" class="check-highload" />
+            <span class="highload2"></span>
+          </label>
+          <label class="container-checkbox-name">Видел Чака Норриса
+            <input type="checkbox" name="checkbox1" class="check-highload" />
+            <span class="highload2"></span>
+          </label>
+          <label class="container-checkbox-name"> Накупил сувениров
+            <input type="checkbox" name="checkbox1" class="check-highload" />
+            <span class="highload2"></span>
+          </label>
+          <label class="container-checkbox-name">Удержал башню
+            <input type="checkbox" name="checkbox1" checked="checked" class="check-highload"/>
+            <span class="highload2"></span>
+          </label>
+          <label class="container-checkbox-name">   Разгромил отель
+            <input type="checkbox" name="checkbox1" class="check-highload"/>
+            <span class="highload2"></span>
+          </label>
+        </div>
+      </section>
+      <section class="section3">
+        <div class="feedback-form-group">
+          <div class="feedback-form1">
+          <label class="text feedback-text" for="phone">Номер телефона</label>
+          <input type="text" name="phone" id="phone" placeholder="Номер,пожалуйста" />
+          </div>
+          <div class="feedback-form1">
+          <label class="text feedback-text" for="email">Адрес почты</label>
+          <input type="text" name="email" id="email" placeholder="Введите почту*" required/>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div> 
+    <section class="section4">
+      <p class="radio-area-tittle">
+        С каким приложением путешествовали
+      </p>
+      <div class="radio-area">
+        <label class="custom-radio">
+        <input type="radio" name="radio-btn" checked value="ios">
+        <span>Pink для iOS</span>
+        </label>
+        <label class="custom-radio">
+        <input type="radio" name="radio-btn" value="android">
+        <span>Pink на Android</span>
+        </label>
+        <label class="custom-radio">
+        <input type="radio" name="radio-btn" value="windows">
+        <span>Windows Phone</span>
+        </label>
+      </div>
+    </section>
+    <section class="section5">
+      <div class="feedback-form-group2">
+        <p class="message">Опишите свои эмоции</p>
+        <textarea name="message" id="message" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+      </div>
+      <div class="section5-submit">
+        <input class="btn" type="submit" value="ОТПРАВИТЬ ФОРМУ">
+      <div class="container-section5">
+      <p class="nesessary-field">
+        <span class="star">*</span> — обязательные поля</p>
+    </div>
+  </div>
+    </section>
     </form>
+
+
     <div class="footer">
       <div class="footer-page">
         <div class="logo-2">
